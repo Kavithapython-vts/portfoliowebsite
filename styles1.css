@@ -58,7 +58,7 @@ nav ul li a:hover{
     transform: translate(60%,60%);
 }
 h3{
-    color:rgb(248, 162, 176);
+    color:rgb(253, 148, 166);
     font-size: 15px;
     margin-bottom: 40px;
 }
@@ -168,12 +168,12 @@ h2{
     margin:10px;
 }
 .My-skills ul li{
-    color:rgb(139, 189, 239);
+    color:rgb(112, 181, 250);
     text-align: center;
     padding:5px;
 }
 .My-skills ol li{
-    color:rgb(240, 115, 173);
+    color:rgb(253, 83, 162);
     text-align: center;
     padding:5px;
 }
