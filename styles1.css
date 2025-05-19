@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height:100vh;
+    width:100%;
+    background-image:url(../laptop,withheadphone.jpg);
+    background-size:cover;
+    background-position: center;
+}
+nav{
+    display:flex;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 20%;
+}
+nav ul{
+     display: flex;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.name{
+    padding: 10px;
+    color:lightgray;
+    font-size: 35px;
+    font-style: bold;
+}
+span{
+    color:rgb(10, 201, 211);
+}
+nav ul li a{
+    color:rgb(0, 183, 255);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+nav ul li a:hover{
+    color:white;
+    transition: 1s;
+}
+.btn{
+    background-color: red;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 60px;
+    font-size: 20px;
+}
+.content{
+    top:75;
+    left:20;
+    position:absolute;
+    transform: translate(60%,60%);
+}
+h3{
+    color:rgb(248, 162, 176);
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+h1{
+    color:whitesmoke;
+
+}
+h4{
+    color:white;
+}
+.Login form{
+    width:400px;
+    position:relative;
+
+}
+.Login form input:first-child{
+    display:inline-block;
+    width:100%;
+    padding:15px 120px 13px 14px;
+    border:3px solid red;
+    border-radius: 40px;
+
+}
+.Login form input:last-child{
+    display:inline-block;
+    padding:10px 30px;
+    border:none;
+    background-color: red;
+    color:white;
+    top:7px;
+    right:7px;
+    border-radius: 40px;
+    position: absolute;
+    box-shadow: 0px 0px 10px black;
+}
+.about_me{
+    width:100%;
+    padding:100px 0px;
+    background-color: darkgray;
+    border:3px solid whitesmoke;
+    background-image:url(../portfolioimage2.jpg);
+    background-size:cover;
+    background-position: center;
+
+
+}
+.about_me img{
+    height: auto;
+    width:400px;
+    border:3px solid whitesmoke;
+}
+.about_content{
+    padding:20px;
+    line-height:1.9;
+    margin-left: 20px;
+}
+.main{
+    display: flex;
+}
+.about_content h2{
+    color:antiquewhite;
+    font-size: 20px;
+    text-shadow:5px 5px 5px black;
+}
+.about_content h5{
+    color:lightgoldenrodyellow;
+    font-size:15px;
+    letter-spacing:2px;
+    text-shadow:4px 4px 4px black ;
+}
+.about_content p{
+    color:white;
+}
+.btn_talk{
+    background-color: red;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 60px;
+    font-size: 20px;
+    box-shadow:5px 5px 5px black;
+    padding:5px;
+}
+.btn_talk:hover{
+    background-color: transparent;
+    border:2px solid red;
+    padding: px;
+}
+.skills{
+    height:100vh;
+    width:100%;
+    padding:100px 0px;
+    background-color: darkgray;
+    background-image:url(../professionalportfolio.avif);
+    background-size:cover;
+    background-position: center;
+}
+.skills h1{
+       color:bisque;
+       text-align: center;
+}
+h2{
+    color:white;
+    text-shadow: 5px 5px 5px white;
+    text-align: center;
+    padding:10px;
+    margin:10px;
+}
+.My-skills ul li{
+    color:rgb(139, 189, 239);
+    text-align: center;
+    padding:5px;
+}
+.My-skills ol li{
+    color:rgb(240, 115, 173);
+    text-align: center;
+    padding:5px;
+}
+.Contact-form h2 p{
+    display:flex;
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:20px;
+}
